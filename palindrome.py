@@ -1,7 +1,7 @@
-string = "potop"
+def palindrome():
+    word = str(input("Word ?: "))
+    rev = word[::-1]
+    asd = rev == word
+    print(bool(asd))
 
-def is_string_palindrome(string):
-  return string == string[::-1]
-
-answer = is_string_palindrome(string)
-print(bool(answer))
+palindrome()
